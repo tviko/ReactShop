@@ -8,7 +8,7 @@ function Header() {
           </a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>
-              <a href="/">Repository</a>
+              <a href="https://tviko.github.io/ReactShop/">Repository</a>
             </li>
           </ul>
         </div>

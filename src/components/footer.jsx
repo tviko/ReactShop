@@ -4,7 +4,7 @@ function Footer() {
       <div className="footer-copyright">
         <div className="container">
           © 2023 Viko Design
-          <a className="grey-text text-lighten-4 right" href="#!">
+          <a className="grey-text text-lighten-4 right" href="https://tviko.github.io/ReactShop/">
             Repository
           </a>
         </div>
