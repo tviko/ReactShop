@@ -12,7 +12,6 @@ function GoodsItem(props) {
     <div className="card" id={id}>
       <div className="card-image">
         <img src={full_background} />
-        <span className="card-title">{name}</span>
       </div>
       <div className="card-content">
         <p>{description}</p>
