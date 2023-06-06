@@ -85,7 +85,7 @@ function Shop() {
   useEffect(function getGoods() {
     fetch(API_URL, {
       headers: {
-        Authorization: "fbd1b0da-dda5e898-cba8173a-373e66e9",
+        Authorization: API_KEY,
       },
     })
       .then((response) => response.json())
