@@ -54,7 +54,7 @@ function Shop() {
   const addToBasket = (item) => {
     const itemIndex = order.findIndex((orderItem) => orderItem.id === item.id);
 
-    if (item < 0) {
+    if (itemIndex < 0) {
       const newItem = {
         ...item,
         quantity: 1,

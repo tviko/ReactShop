@@ -13,7 +13,7 @@ function BasketList(props) {
   }, 0);
 
   return (
-    <ul className="collection purple darken-3">
+    <ul className="collection basket-list purple darken-3">
       <li className="collection-item active purple darken-3">Корзина</li>
       {order.length ? (
         order.map((item) => (
