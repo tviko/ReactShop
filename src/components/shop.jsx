@@ -82,7 +82,7 @@ function Shop() {
     setOrder(newOrder);
   };
 
-  useEffect(function setGoods() {
+  useEffect(function getGoods() {
     fetch("https://fortniteapi.io/v1/shop?lang=ru", {
       headers: {
         Autorization: "fbd1b0da-dda5e898-cba8173a-373e66e9",
