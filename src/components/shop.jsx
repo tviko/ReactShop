@@ -83,9 +83,9 @@ function Shop() {
   };
 
   useEffect(function setGoods() {
-    fetch(API_URL, {
+    fetch('https://fortniteapi.io/v2/shop?lang=ru', {
       headers: {
-        Autorization: API_KEY,
+        'Autorization': 'fbd1b0da-dda5e898-cba8173a-373e66e9',
       },
     })
       .then((response) => response.json())
