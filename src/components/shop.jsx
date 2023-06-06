@@ -83,9 +83,9 @@ function Shop() {
   };
 
   useEffect(function setGoods() {
-    fetch('https://fortniteapi.io/v2/shop?lang=ru', {
+    fetch("https://fortniteapi.io/v1/shop?lang=ru", {
       headers: {
-        'Autorization': 'fbd1b0da-dda5e898-cba8173a-373e66e9',
+        Autorization: "fbd1b0da-dda5e898-cba8173a-373e66e9",
       },
     })
       .then((response) => response.json())
