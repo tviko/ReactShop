@@ -107,3 +107,18 @@ main {
     -o-transform: translateY(0rem);
   }
 }
+.card, .card-content, {
+  margin: 0;
+  font-size: 26px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.card .card-image .card-title {
+  display: none;
+}
+.goods {
+  grid-gap: 1rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));}
